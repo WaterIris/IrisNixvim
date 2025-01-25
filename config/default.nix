@@ -5,5 +5,6 @@
     ./bufferline.nix 
     ./colorscheme.nix
     ./colorizer.nix
+    ./indent_blankline.nix
   ];
 }
