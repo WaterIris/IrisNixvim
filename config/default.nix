@@ -4,5 +4,6 @@
     ./options.nix
     ./bufferline.nix 
     ./colorscheme.nix
+    ./colorizer.nix
   ];
 }
