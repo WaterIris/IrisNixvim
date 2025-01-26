@@ -7,5 +7,6 @@
     ./colorizer.nix
     ./indent_blankline.nix
     ./lsp.nix
+    ./autopairs.nix
   ];
 }
