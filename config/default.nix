@@ -9,5 +9,6 @@
     ./autopairs.nix
     ./lsp.nix
     ./cmp.nix
+    ./treesitter.nix
   ];
 }
