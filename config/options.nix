@@ -1,5 +1,6 @@
 {
   config = {
+    clipboard.providers.wl-copy.enable = true;
     opts = {
       updatetime = 100;
       number = true;
