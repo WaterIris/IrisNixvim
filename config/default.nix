@@ -6,7 +6,8 @@
     ./colorscheme.nix
     ./colorizer.nix
     ./indent_blankline.nix
-    ./lsp.nix
     ./autopairs.nix
+    ./lsp.nix
+    ./cmp.nix
   ];
 }
