@@ -3,7 +3,6 @@
     enable = true;
     servers = {
       lua_ls.enable = true;
-      nil_ls.enable = true;
       pylsp = {
         enable = true;
         settings.plugins = {
