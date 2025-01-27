@@ -8,7 +8,6 @@
       ensure_installed = [
         "python"
         "lua"
-        "nix"
       ];
     };
   };

@@ -10,5 +10,6 @@
     ./lsp.nix
     ./cmp.nix
     ./treesitter.nix
+    ./barbecue.nix
   ];
 }
