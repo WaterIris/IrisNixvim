@@ -1,4 +1,5 @@
 {
+  plugins.lsp-signature.enable = true;
   plugins.lsp = {
     enable = true;
     servers = {
