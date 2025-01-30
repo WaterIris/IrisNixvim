@@ -11,5 +11,6 @@
     ./cmp.nix
     ./treesitter.nix
     ./barbecue.nix
+    ./telescope.nix
   ];
 }
