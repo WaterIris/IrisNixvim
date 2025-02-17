@@ -2,22 +2,22 @@
   colorschemes.base16 = {
     enable = true;
     colorscheme = {
-      base00 = "#232136";
-      base01 = "#2a273f";
-      base02 = "#393552";
-      base03 = "#6e6a86";
-      base04 = "#908caa";
-      base05 = "#e0def4";
-      base06 = "#e0def4";
-      base07 = "#56526e";
-      base08 = "#eb6f92";
-      base09 = "#f6c177";
-      base0A = "#ea9a97";
-      base0B = "#3e8fb0";
-      base0C = "#9ccfd8";
-      base0D = "#c4a7e7";
-      base0E = "#f6c177";
-      base0F = "#56526e";   
+      base00 = "#171b24";
+      base01 = "#3A435A";
+      base02 = "#3A435A";
+      base03 = "#3A435A";  # comments
+      base04 = "#3A435A";
+      base05 = "#956dca";
+      base06 = "#f4f3ee";
+      base07 = "#f4f3ee";
+      base08 = "#f4f3ee";
+      base09 = "#3E66E0";
+      base0A = "#956dca";
+      base0B = "#3E66E0";
+      base0C = "#3E66E0";
+      base0D = "#DE642B";
+      base0E = "#3F8CDE";
+      base0F = "#f4f3ee";
     };
   };
 }
