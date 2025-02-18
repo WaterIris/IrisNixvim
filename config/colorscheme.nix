@@ -11,10 +11,10 @@
       base06 = "#f4f3ee";
       base07 = "#f4f3ee";
       base08 = "#f4f3ee";
-      base09 = "#3E66E0";  # Capital lettern and ints
+      base09 = "#5599E2";  # Capital lettern and ints
       base0A = "#956dca";  # range itp
-      base0B = "#3E66E0";
-      base0C = "#3E66E0";
+      base0B = "#5679E3";
+      base0C = "#5679E3";
       base0D = "#DE642B";
       base0E = "#3F8CDE";
       base0F = "#f4f3ee";
