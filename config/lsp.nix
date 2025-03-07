@@ -5,6 +5,7 @@
     servers = {
       lua_ls.enable = true;
       bashls.enable = true;
+      nixd.enable = true;
       pylsp = {
         enable = true;
         settings.plugins = {
