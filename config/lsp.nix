@@ -6,6 +6,7 @@
       lua_ls.enable = true;
       bashls.enable = true;
       nixd.enable = true;
+      clangd.enable = true;
       pylsp = {
         enable = true;
         settings.plugins = {
