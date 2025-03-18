@@ -1,5 +1,11 @@
 {
-  plugins.lsp-signature.enable = true;
+  plugins.lsp-signature = {
+    enable = true;
+    settings = {
+      hint_prefix = "󱚟 ";
+      max_width = 140;
+    };
+  };
   plugins.lsp = {
     enable = true;
     servers = {
