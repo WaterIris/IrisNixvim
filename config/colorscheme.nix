@@ -12,7 +12,7 @@
       base07 = "#f4f3ee";  # no clue
       base08 = "#f4f3ee";  # variable names
       base09 = "#5599E2";  # Capital lettern and ints
-      base0A = "#956dca";  # range itp
+      base0A = "#e5c890";  # range itp
       base0B = "#40a02b";  # strings
       base0C = "#5679E3";
       base0D = "#ed8796";  # function names, also for buit int
