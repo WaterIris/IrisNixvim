@@ -16,7 +16,7 @@
       base0B = "#83C092";  # strings
       base0C = "#5679E3";
       base0D = "#E67E80";  # function names, also for buit int
-      base0E = "#3F8CDE";
+      base0E = "#956dca";
       base0F = "#f4f3ee";
     };
   };
