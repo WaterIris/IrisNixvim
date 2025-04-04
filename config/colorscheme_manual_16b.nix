@@ -7,7 +7,7 @@
       base02 = "#171b24";
       base03 = "#3A435A";  # comments
       base04 = "#d7d9d7";  # changed 
-      base05 = "#d7d9d7";  # brackes and finction parameter definitions
+      base05 = "#7287fd";  # brackes and finction parameter definitions
       base06 = "#d7d9d7";  # no clue
       base07 = "#d7d9d7";  # no clue
       base08 = "#d7d9d7";  # variable names
