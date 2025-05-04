@@ -4,7 +4,7 @@
     web-devicons.enable = true;
     lualine = {
       enable = true;
-      settings.options.theme = "base16";
+      # settings.options.theme = "base16";
     };
   };
 }
