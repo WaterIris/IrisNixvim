@@ -27,6 +27,7 @@
             module = import ./config; # import the module directly
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
             extraSpecialArgs = {
+              pkgs = inputs.nixpkgs.legacyPackages.${system};
               # inherit (inputs) foo;
             };
           };
