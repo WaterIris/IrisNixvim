@@ -12,7 +12,7 @@
         ];
       };
       indent.highlight = [
-        "grey"
+        "indent"
       ];
     };
   };
