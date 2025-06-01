@@ -3,17 +3,16 @@
     enable = true;
     settings = {
       scope = {
-        enabled = false;
+        enabled = true;
         show_end = false;
         show_exact_scope = false;
         show_start = false;
+        highlight = [
+          "violet"
+        ];
       };
       indent.highlight = [
-        "red"
-        "yellow"
-        "blue"
-        "cyan"
-        "green"
+        "grey"
       ];
     };
   };

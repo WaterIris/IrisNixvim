@@ -7,9 +7,18 @@
       indent.enable = true;
       ensure_installed = [
         "python"
-        "lua"
-        "nix"
         "bash"
+        "json"
+        "lua"
+        "make"
+        "markdown"
+        "nix"
+        "regex"
+        "toml"
+        "vim"
+        "vimdoc"
+        "xml"
+        "yaml"
       ];
     };
   };
