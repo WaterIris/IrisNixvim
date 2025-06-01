@@ -7,7 +7,8 @@
     red.fg = "#fb80aa";
     violet.fg = "#b77ed1";
     white.fg = "#f5f6fb";
+
     indent.fg = "#1a2137";
-    braces.fg = "#b77ed1";
+    braces.fg = "#f5f6fb";
   };
 }
