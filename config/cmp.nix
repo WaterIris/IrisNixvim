@@ -6,14 +6,7 @@
       enable = true;
       autoEnableSources = true;
       settings = {
-        snippet = {
-          expand = /* lua */ ''
-            function(args)
-            require("luasnip").lsp_expand(args.body)
-            end
-            '';
-        };
-
+        snippet.expand = "luasnip";
         sources = [
           { name = "nvim_lsp"; }
           { name = "path"; }

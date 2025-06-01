@@ -6,13 +6,13 @@
       max_width = 140;
     };
   };
+  
   plugins.lsp = {
     enable = true;
     servers = {
       lua_ls.enable = true;
       bashls.enable = true;
       clangd.enable = true;
-      # nil_ls.enable = true;
       nixd.enable = true;
       pylsp = {
         enable = true;
