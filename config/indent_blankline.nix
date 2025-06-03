@@ -8,7 +8,7 @@
         show_exact_scope = false;
         show_start = false;
         highlight = [
-          "violet"
+          "cyan"
         ];
       };
       indent.highlight = [

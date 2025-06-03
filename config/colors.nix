@@ -1,14 +1,14 @@
 {
   highlight = {
-    yellow.fg = "#f9e2af";
-    blue.fg = "#89b4fa";
-    cyan.fg = "#94e2d5";
-    green.fg = "#a6e3a1";
-    red.fg = "#f38ba8";
-    violet.fg = "#cba6f7";
+    yellow.fg = "#e5c890";
+    blue.fg = "#56b8f7";
+    cyan.fg = "#52a9a9";
+    green.fg = "#83C092";
+    red.fg = "#fb80aa";
+    violet.fg = "#b77ed1";
     white.fg = "#bac2de";
 
-    indent.fg = "#313245";
+    indent.fg = "#2e3859";
     braces.fg = "#bac2de";
   };
 }
