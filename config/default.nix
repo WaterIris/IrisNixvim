@@ -4,7 +4,7 @@
     ./colors.nix
     ./options.nix
     ./bufferline.nix 
-    ./colorscheme.nix
+    ./theme.nix
     ./colorizer.nix
     ./indent_blankline.nix
     ./autopairs.nix
