@@ -17,7 +17,10 @@
       pylsp = {
         enable = true;
         settings.plugins = {
-          flake8.enabled = true;
+          flake8 = {
+            enabled = true;
+            maxLineLength = 120;
+          };
           pylint.enabled = true;
         };
       };
