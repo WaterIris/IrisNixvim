@@ -14,5 +14,6 @@
     ./barbecue.nix
     ./telescope.nix
     ./rainbow-delimiters.nix
+    ./remap.nix
   ];
 }
