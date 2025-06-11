@@ -14,6 +14,7 @@
       bashls.enable = true;
       clangd.enable = true;
       nixd.enable = true;
+      terraform_lsp.enable = true;
       pylsp = {
         enable = true;
         settings.plugins = {

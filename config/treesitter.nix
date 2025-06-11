@@ -17,6 +17,7 @@
       vimdoc
       xml
       yaml
+      terraform
     ];
     settings = {
       highlight.enable = true;
