@@ -4,7 +4,8 @@
     settings = {
       hint_prefix = "";
       max_width = 80;
-      doc_lines = 1;
+      doc_lines = null;
+      floating_window_above_cur_line = false;
     };
   };
 

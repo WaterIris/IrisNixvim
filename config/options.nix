@@ -12,6 +12,8 @@
       shiftwidth = 2;
       tabstop = 2;
       undolevels = 1000;
+      swapfile = false;
+      undofile = false;
     };
   };
 }
