@@ -2,11 +2,20 @@
   plugins.lsp-signature = {
     enable = true;
     settings = {
-      hint_prefix = "󱚟 ";
-      max_width = 140;
+      hint_prefix = "";
+      max_width = 80;
+      doc_lines = 1;
     };
   };
-  
+
+  plugins.friendly-snippets = {
+    enable = true;
+  }; 
+
+  plugins.luasnip = {
+    enable = true;
+  };
+
   plugins.lsp = {
     enable = true;
     servers = {

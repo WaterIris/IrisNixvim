@@ -1,7 +1,5 @@
 {
-  plugins.luasnip = {
-    enable = true;
-  };
+  
   plugins.cmp = {
       enable = true;
       autoEnableSources = true;
@@ -11,6 +9,7 @@
           { name = "nvim_lsp"; }
           { name = "path"; }
           { name = "luasnip"; }
+          { name = "buffer"; }
         ];
 
         mapping = {
@@ -26,5 +25,4 @@
         };
       };
   }; 
- 
 }
