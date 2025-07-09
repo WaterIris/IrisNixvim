@@ -11,7 +11,7 @@
       base05 = "#b77ed1"; # Default Foreground, Caret, Delimiters, Operators
       base06 = "#fb8000"; # Light Foreground (Not often used)
       base07 = "#fb8000"; # Light Background (Not often used)
-      base08 = "#cdd6f4"; # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+      base08 = "#BFBBBA"; # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
       base09 = "#fb80aa"; # Integers, Boolean, Constants, XML Attributes, Markup Link Url
       base0A = "#e5c890"; # Classes, Markup Bold, Search Text Background
       base0B = "#83C092"; # Strings, Inherited Class, Markup Code, Diff Inserted
