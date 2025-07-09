@@ -10,8 +10,8 @@
           theme = "auto";
           component_separators = "|";
           section_separators = { 
-            left = "";
-            right = "";
+            left = "█";
+            right = "█";
           };
         };
       };
