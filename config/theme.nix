@@ -6,7 +6,7 @@
       base00 = "#18181b"; # Default Background 
       base01 = "#18181b"; # Lighter Background (Used for status bars, line number and folding marks)
       base02 = "#3f3f46"; # Selection Background
-      base03 = "#27272a"; # Comments, Invisibles, Line Highlighting
+      base03 = "#ffffff"; # Comments, Invisibles, Line Highlighting
       base04 = "#777777"; # Dark Foreground (Used for status bars)
       base05 = "#777777"; # Variable names
       base06 = "#777777"; # Light Foreground (Not often used)
