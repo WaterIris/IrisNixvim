@@ -1,19 +1,17 @@
 {
   # Import all your configuration modules here
   imports = [ 
-    ./colors.nix
     ./options.nix
-    ./bufferline.nix 
-    ./theme.nix
-    ./colorizer.nix
-    ./indent_blankline.nix
-    ./autopairs.nix
-    ./lsp.nix
-    ./cmp.nix
-    ./treesitter.nix
-    ./barbecue.nix
+    ./keybinds.nix
+    ./lua-line.nix
+    ./colors.nix
     ./telescope.nix
-    ./rainbow-delimiters.nix
-    ./remap.nix
+    ./treesitter.nix
+    ./indent-line.nix
+    ./cmp.nix
+    ./lsp.nix
+    ./barbecue.nix
+    ./autopairs.nix
+    ./one-liners.nix
   ];
 }

@@ -9,8 +9,8 @@
       cursorline = true;
       expandtab = true;
       autoindent = true;
-      shiftwidth = 2;
-      tabstop = 2;
+      shiftwidth = 4;
+      tabstop = 4;
       undolevels = 1000;
       swapfile = false;
       undofile = false;
