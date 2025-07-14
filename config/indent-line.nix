@@ -1,9 +1,9 @@
 {
 
   highlight = {
-    blue.fg = "#7cafff";
+    blue.fg = "#89b4fa";
 
-    indent.fg = "#7a88cf";
+    indent.fg = "#27272a";
   };
   plugins.indent-blankline = {
     enable = true;
