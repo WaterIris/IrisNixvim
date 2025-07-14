@@ -5,7 +5,7 @@
     colorscheme = {
       base00 = "#18181b"; # Default Background 
       base01 = "#18181b"; # Lighter Background (Used for status bars, line number and folding marks)
-      base02 = "#777"; # Selection Background
+      base02 = "#777777"; # Selection Background
       base03 = "#979bb6"; # Comments, Invisibles, Line Highlighting
       base04 = "#c8d3f5"; # Dark Foreground (Used for status bars)
       base05 = "#c8d3f5"; # Variable names
