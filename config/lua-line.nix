@@ -15,23 +15,23 @@
             normal = {
               a = {
                 fg = "#000000";
-                bg = "#89b4fa";
+                bg = "#7cafff";
                 gui = "bold";
               };
               b = {
-                fg = "#777777";
-                bg = "#27272a";
+                fg = "#c8d3f5";
+                bg = "#1e2030";
               };
               c = {
-                fg = "#777777";
-                bg = "#3f3f46";
+                fg = "#c8d3f5";
+                bg = "#2f334d";
               };
             };
 
             insert = {
               a = {
                 fg = "#000000";
-                bg = "#a6e3a1";
+                bg = "#b4f9f8";
                 gui = "bold";
               };
             };
@@ -39,7 +39,7 @@
             visual = {
               a = {
                 fg = "#000000";
-                bg = "#cba6f7";
+                bg = "#fd8aca";
                 gui = "bold";
               };
             };
@@ -47,7 +47,7 @@
             replace = {
               a = {
                 fg = "#000000";
-                bg = "#f38ba8";
+                bg = "#ff757f";
                 gui = "bold";
               };
             };
