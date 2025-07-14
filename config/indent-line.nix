@@ -3,7 +3,7 @@
   highlight = {
     blue.fg = "#7cafff";
 
-    indent.fg = "#1e2030";
+    indent.fg = "#7a88cf";
   };
   plugins.indent-blankline = {
     enable = true;
