@@ -7,5 +7,6 @@
     ./indent-line.nix
     ./telescope.nix
     ./treesitter.nix
+    ./lsp.nix
   ];
 }
