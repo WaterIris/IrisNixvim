@@ -6,5 +6,6 @@
     ./lua-line.nix
     ./indent-line.nix
     ./telescope.nix
+    ./treesitter.nix
   ];
 }

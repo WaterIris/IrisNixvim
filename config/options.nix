@@ -1,9 +1,10 @@
 {
   config = {
-    clipboard.providers.wl-copy.enable = true;
+
+    clipboard.register = "unnamedplus";
     opts = {
       number = true;
-      relativenumber= true;
+      relativenumber = true;
       cursorline = true;
       shiftwidth = 2;
       undolevels = 1000;
