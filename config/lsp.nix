@@ -4,6 +4,9 @@
       enable = true;
       inlayHints = true;
       servers = {
+	nixd = {
+	  enable = true;
+	};
 	pylsp = {
 	  enable = true;
 	  settings.plugins = {
