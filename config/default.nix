@@ -8,5 +8,6 @@
     ./telescope.nix
     ./treesitter.nix
     ./lsp.nix
+    ./barbecue.nix
   ];
 }
