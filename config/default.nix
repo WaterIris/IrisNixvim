@@ -10,5 +10,6 @@
     ./lsp.nix
     ./barbecue.nix
     ./cmp.nix
+    ./luasnip.nix
   ];
 }
