@@ -9,6 +9,7 @@
       undolevels = 1000;
       swapfile = false;
       undofile = false;
+      termguicolors = true;
     };
   };
 }

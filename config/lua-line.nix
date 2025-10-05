@@ -5,6 +5,7 @@
       enable = true;
       settings = {
         options = {
+	  theme = "tokyonight";
           icons_enabled = true;
         };
       };

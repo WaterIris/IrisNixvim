@@ -2,8 +2,9 @@
   imports = [ 
     ./options.nix
     ./keybinds.nix
+    ./color-scheme.nix
     ./lua-line.nix
-    ./telescope.nix
     ./indent-line.nix
+    ./telescope.nix
   ];
 }
