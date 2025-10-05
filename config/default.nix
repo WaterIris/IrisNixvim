@@ -9,7 +9,6 @@
     ./treesitter.nix
     ./lsp.nix
     ./barbecue.nix
-    ./cmp.nix
-    ./luasnip.nix
+    ./blink-cmp.nix
   ];
 }
