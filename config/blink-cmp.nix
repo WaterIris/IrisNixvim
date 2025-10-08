@@ -40,10 +40,6 @@
 	  "fallback"
 	];
 	"<C-Tab>" = [
-	  "show_documentation"
-	  "hide_documentation"
-	];
-	"<Tab>" = [
 	  "select_and_accept"
 	];
 
