@@ -10,5 +10,6 @@
     ./lsp.nix
     ./barbecue.nix
     ./blink-cmp.nix
+    ./which-key.nix
   ];
 }
