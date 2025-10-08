@@ -39,7 +39,7 @@
 	  "select_prev"
 	  "fallback"
 	];
-	"<C-Tab>" = [
+	"<C-CR>" = [
 	  "select_and_accept"
 	];
 
