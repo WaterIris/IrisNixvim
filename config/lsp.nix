@@ -9,9 +9,16 @@
 	};
 	pylsp = {
 	  enable = true;
-	  settings.plugins = {
-	    flake8.enabled = true;
-	  };
+	  settings = {
+	    configurationSources = "flake8";
+	    plugins = {
+	      pycodestyle = {
+		enabled = true;
+		# addIgnore= ["E501"];
+		maxLineLength = 120;
+	      };
+	    };
+	  };  
 	};
       };
     };

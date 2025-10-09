@@ -13,9 +13,23 @@
 	};
       
 	documentation = {
-	auto_show = true;
+	  auto_show = true;
 	};
+
+	ghost_text = {
+	  enabled = true;
+	};
+	
+	
       };
+
+      sources = {
+	  default = [
+	    "lsp" 
+	    "path" 
+	    "snippets" 
+	  ]; 
+	};
       
       keymap = {
 	preset = "default";
@@ -39,8 +53,9 @@
 	  "select_prev"
 	  "fallback"
 	];
-	"<C-CR>" = [
+	"<CR>" = [ 
 	  "select_and_accept"
+	  "fallback" 
 	];
 
 	"<Up>" = [

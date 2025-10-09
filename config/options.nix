@@ -11,6 +11,7 @@
       swapfile = false;
       undofile = false;
       termguicolors = true;
+      expandtab = true;
     };
   };
 }
