@@ -11,5 +11,6 @@
     ./barbecue.nix
     ./blink-cmp.nix
     ./which-key.nix
+    ./colors-preview.nix
   ];
 }
