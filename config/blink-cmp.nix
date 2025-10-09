@@ -32,27 +32,17 @@
 	};
       
       keymap = {
-	preset = "default";
 
-	"<C-b>" = [
+	"<Left>" = [
 	  "scroll_documentation_up"
 	  "fallback"
 	];
-	"<C-f>" = [
+
+	"<Right>" = [
 	  "scroll_documentation_down"
 	  "fallback"
 	];
-	"<C-e>" = [
-	  "hide"
-	];
-	"<C-n>" = [
-	  "select_next"
-	  "fallback"
-	];
-	"<C-p>" = [
-	  "select_prev"
-	  "fallback"
-	];
+
 	"<CR>" = [ 
 	  "select_and_accept"
 	  "fallback" 
@@ -66,7 +56,20 @@
 	  "select_next"
 	  "fallback"
 	];
-	
+
+        cmdline = {
+          "<CR>" = ["fallback"];
+
+          "<Up>" = [
+	    "select_prev"
+	    "fallback"
+	  ];
+
+	  "<Down>" = [
+	    "select_next"
+	    "fallback"
+	  ];
+        };
       };
     };
   };  
