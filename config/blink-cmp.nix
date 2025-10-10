@@ -28,6 +28,7 @@
 	    "lsp" 
 	    "path" 
 	    "snippets" 
+            "buffer"
 	  ]; 
 	};
       
