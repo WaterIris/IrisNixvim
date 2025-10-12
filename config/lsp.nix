@@ -10,11 +10,10 @@
 	pylsp = {
 	  enable = true;
 	  settings = {
-	    configurationSources = "flake8";
 	    plugins = {
-	      pycodestyle = {
+	      flake8 = {
 		enabled = true;
-		# addIgnore= ["E501"];
+		ignore = ["E501"];
 		maxLineLength = 120;
 	      };
 	    };
