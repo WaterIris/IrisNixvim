@@ -44,18 +44,12 @@
 	nixd = {
 	  enable = true;
 	};
-	pylsp = {
-	  enable = true;
-	  settings = {
-	    plugins = {
-	      flake8 = {
-		enabled = true;
-		ignore = ["E501"];
-		maxLineLength = 120;
-	      };
-	    };
-	  };  
-	};
+        pyright = {
+          enable = true;
+        };
+        ruff = {
+          enable = true;
+        };
       };
     };
   };
