@@ -3,75 +3,74 @@
     enable = true;
     settings = {
       completion = {
-	accept = {
-	  auto_brackets = {
-	    enabled = true;
-	      semantic_token_resolution = {
-		enabled = false;
-	    };
-	  };
-	};
-      
-	documentation = {
-	  auto_show = true;
-	};
+        accept = {
+          auto_brackets = {
+            enabled = true;
+            semantic_token_resolution = {
+              enabled = false;
+            };
+          };
+        };
 
-	ghost_text = {
-	  enabled = true;
-	};
-	
-	
+        documentation = {
+          auto_show = true;
+        };
+
+        ghost_text = {
+          enabled = true;
+        };
+
       };
 
       sources = {
-	  default = [
-	    "lsp" 
-	    "path" 
-	    "snippets" 
-            "buffer"
-	  ]; 
-	};
-      
+        default = [
+          "lsp"
+          "path"
+          "snippets"
+          "buffer"
+        ];
+      };
+
       keymap = {
 
-	"<Left>" = [
-	  "scroll_documentation_up"
-	  "fallback"
-	];
+        "<Left>" = [
+          "scroll_documentation_up"
+          "fallback"
+        ];
 
-	"<Right>" = [
-	  "scroll_documentation_down"
-	  "fallback"
-	];
+        "<Right>" = [
+          "scroll_documentation_down"
+          "fallback"
+        ];
 
-	"<CR>" = [ 
-	  "select_and_accept"
-	  "fallback" 
-	];
+        "<CR>" = [
+          "select_and_accept"
+          "fallback"
+        ];
 
-	"<Up>" = [
-	  "select_prev"
-	  "fallback"
-	];
-	"<Down>" = [
-	  "select_next"
-	  "fallback"
-	];
+        "<Up>" = [
+          "select_prev"
+          "fallback"
+        ];
+        "<Down>" = [
+          "select_next"
+          "fallback"
+        ];
 
         cmdline = {
-          "<CR>" = ["fallback"];
+          "<CR>" = [ "fallback" ];
 
           "<Up>" = [
-	    "select_prev"
-	    "fallback"
-	  ];
+            "select_prev"
+            "fallback"
+          ];
 
-	  "<Down>" = [
-	    "select_next"
-	    "fallback"
-	  ];
+          "<Down>" = [
+            "select_next"
+            "fallback"
+          ];
         };
       };
     };
-  };  
+  };
 }

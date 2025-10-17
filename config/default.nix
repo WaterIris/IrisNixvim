@@ -1,5 +1,5 @@
 {
-  imports = [ 
+  imports = [
     ./options.nix
     ./keybinds.nix
     ./color-scheme.nix

@@ -6,7 +6,7 @@
       key = "<leader>cd";
       action = "<cmd>Ex<CR>";
       options = {
-	desc = "Enter file explorer";
+        desc = "Enter file explorer";
       };
     }
     {

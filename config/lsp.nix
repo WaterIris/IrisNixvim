@@ -10,30 +10,30 @@
           "<leader>k" = "goto_prev";
         };
         lspBuf = {
-          "rn" = "rename"; 
+          "rn" = "rename";
         };
         extra = [
           {
             action = {
-            __raw = "require('telescope.builtin').lsp_definitions";
+              __raw = "require('telescope.builtin').lsp_definitions";
             };
             key = "gd";
           }
           {
             action = {
-            __raw = "require('telescope.builtin').lsp_references";
+              __raw = "require('telescope.builtin').lsp_references";
             };
             key = "gr";
           }
           {
             action = {
-            __raw = "require('telescope.builtin').lsp_implementations";
+              __raw = "require('telescope.builtin').lsp_implementations";
             };
             key = "gi";
           }
           {
             action = {
-            __raw = "require('telescope.builtin').lsp_type_definitions";
+              __raw = "require('telescope.builtin').lsp_type_definitions";
             };
             key = "gt";
           }
@@ -41,9 +41,9 @@
         ];
       };
       servers = {
-	nixd = {
-	  enable = true;
-	};
+        nixd = {
+          enable = true;
+        };
         pylsp = {
           enable = true;
           settings = {

@@ -4,17 +4,17 @@
     settings = {
       ensure_installed = [
         "nix"
-	"python"
+        "python"
       ];
 
       auto_install = false;
 
       highlight = {
-	enable = true; 
+        enable = true;
       };
 
       indent = {
-	enable = true; 
+        enable = true;
       };
     };
   };
