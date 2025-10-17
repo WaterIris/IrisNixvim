@@ -44,11 +44,21 @@
 	nixd = {
 	  enable = true;
 	};
-        pyright = {
+        pylsp = {
           enable = true;
-        };
-        ruff = {
-          enable = true;
+          settings = {
+            plugins = {
+              autopep8.enabled = false;
+              flake8 = {
+                enabled = true;
+                maxLineLength = 120;
+              };
+              mccabe.enabled = false;
+              pycodestyle.enabled = false;
+              pyflakes.enabled = false;
+              yapf.enabled = false;
+            };
+          };
         };
       };
     };
