@@ -12,7 +12,6 @@
     ./blink-cmp.nix
     ./which-key.nix
     ./colors-preview.nix
-    ./conform.nix
     ./autopair.nix
   ];
 }

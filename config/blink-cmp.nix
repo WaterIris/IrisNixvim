@@ -6,8 +6,10 @@
         list = {
           selection = {
             preselect = false;
+            auto_insert = false;
           };
         };
+
         accept = {
           auto_brackets = {
             enabled = true;
@@ -16,15 +18,15 @@
             };
           };
         };
-
         documentation = {
           auto_show = true;
         };
-
         ghost_text = {
           enabled = true;
         };
-
+      };
+      signature = {
+        enabled = true;
       };
 
       sources = {
@@ -37,6 +39,8 @@
       };
 
       keymap = {
+
+        preset = "none";
 
         "<Left>" = [
           "scroll_documentation_up"
@@ -58,6 +62,11 @@
           "fallback"
         ];
         "<Down>" = [
+          "select_next"
+          "fallback"
+        ];
+
+        "<Tab>" = [
           "select_next"
           "fallback"
         ];
