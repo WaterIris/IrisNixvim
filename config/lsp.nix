@@ -50,7 +50,7 @@
             plugins = {
               autopep8.enabled = false;
               flake8 = {
-                enabled = true;
+                enabled = false;
                 maxLineLength = 120;
               };
               mccabe.enabled = false;
